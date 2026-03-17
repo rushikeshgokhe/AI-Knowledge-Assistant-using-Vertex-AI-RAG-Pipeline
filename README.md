@@ -73,7 +73,7 @@ Customer support automation
 ⚙️ Installation & Setup
 1. Clone the repository
 
-git clone https://github.com/your-username/ai-knowledge-assistant.git
+git clone https://github.com/rushikeshgokhe/ai-knowledge-assistant.git
 
 cd ai-knowledge-assistant
 
