@@ -1,35 +1,36 @@
 🤖 AI Knowledge Assistant using Vertex AI & RAG Pipeline
 
-An intelligent AI chatbot built using Google Vertex AI and a Retrieval-Augmented Generation (RAG) pipeline to deliver accurate, context-aware answers from custom documents.
+An intelligent AI chatbot built using Google Vertex AI and a Retrieval-Augmented Generation (RAG) pipeline to provide accurate, context-aware responses from custom documents.
 
 🚀 Overview
 
-Large Language Models (LLMs) often generate generic or incorrect responses due to lack of real-time or domain-specific knowledge.
-This project solves that problem using RAG (Retrieval-Augmented Generation) by retrieving relevant information from documents before generating responses.
+Large Language Models (LLMs) can generate incorrect or generic responses due to lack of domain-specific knowledge.
+This project enhances LLM performance using RAG (Retrieval-Augmented Generation) by retrieving relevant information from documents before generating answers.
 
 ✨ Features
 
-📄 Document-based Question Answering
+Document-based Question Answering
 
-🔍 Semantic Search using Vector Embeddings
+Semantic search using vector embeddings
 
-🧩 Document Chunking for efficient retrieval
+Document chunking for efficient processing
 
-⚡ Context-aware response generation using LLM
+Context-aware response generation using LLM
 
-🎯 Prompt engineering for improved accuracy
+Prompt engineering for improved accuracy
 
-🏗️ System Architecture
+🏗️ Architecture
+
 Documents → Chunking → Embeddings → Vector Store
-                                      ↓
 User Query → Embedding → Similarity Search → Context Retrieval → LLM → Response
+
 🛠️ Tech Stack
 
 Programming Language: Python
 
 Platform: Google Vertex AI
 
-Core Concepts:
+Concepts Used:
 
 Retrieval-Augmented Generation (RAG)
 
@@ -43,85 +44,93 @@ Prompt Engineering
 
 Upload documents (PDF/Text)
 
-Split documents into smaller chunks
+Split documents into chunks
 
 Convert chunks into vector embeddings
 
-Store embeddings in vector database
+Store embeddings in a vector database
 
 Convert user query into embedding
 
 Perform similarity search
 
-Retrieve most relevant chunks
+Retrieve relevant chunks
 
-Pass context to LLM for response generation
+Send context to LLM
+
+Generate final response
 
 📌 Use Cases
 
-📚 Student Learning Assistant
+Student learning assistant
 
-🏢 Company Knowledge Chatbot
+Company knowledge chatbot
 
-📄 Document-based Q&A System
+Document-based Q&A system
 
-🤖 Customer Support Automation
+Customer support automation
 
 ⚙️ Installation & Setup
-1. Clone the Repository
+1. Clone the repository
+
 git clone https://github.com/your-username/ai-knowledge-assistant.git
+
 cd ai-knowledge-assistant
-2. Install Dependencies
+
+2. Install dependencies
+
 pip install -r requirements.txt
+
 3. Configure Google Cloud
 
 Enable Vertex AI API
 
-Authenticate:
-
+Authenticate using:
 gcloud auth application-default login
-4. Run the Project
+
+4. Run the project
+
 python main.py
+
 📂 Project Structure
+
 ai-knowledge-assistant/
 │
-├── data/                # Input documents
-├── embeddings/          # Stored embeddings (optional)
+├── data/
+├── embeddings/
 ├── src/
-│   ├── chunking.py
-│   ├── embeddings.py
-│   ├── retrieval.py
-│   ├── prompt.py
-│   └── main.py
+│ ├── chunking.py
+│ ├── embeddings.py
+│ ├── retrieval.py
+│ ├── prompt.py
+│ └── main.py
 │
 ├── requirements.txt
 └── README.md
-📈 Future Enhancements
 
-🌐 Web Interface (Streamlit / React)
+📈 Future Improvements
 
-📊 Dashboard for analytics
+Add Streamlit or web-based UI
 
-🗂️ Multi-document indexing
+Multi-document support
 
-🔐 User authentication
+Authentication system
 
-⚡ Faster vector search optimization
+Performance optimization
+
+Logging and analytics
 
 🎯 Learning Outcomes
 
-Practical implementation of RAG architecture
+Understanding of RAG architecture
 
-Working with Vertex AI and LLMs
+Hands-on experience with Vertex AI
 
-Understanding of vector embeddings & semantic search
+Implementation of vector embeddings
 
-Hands-on experience with prompt engineering
+Improved prompt engineering skills
 
 👨‍💻 Author
 
 Rushikesh Gokhe
-
-Electrical Engineering Student
-
 Aspiring AI / Software Developer
